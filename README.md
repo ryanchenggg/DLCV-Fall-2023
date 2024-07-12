@@ -18,7 +18,7 @@
 - **Validation mIoU for Model A (VGG16-FCN-32s):** 0.5527
 - **Validation mIoU for Model B (Deeplab v3):** 0.7529
 
-[View HW1 Report](URL-to-HW1-Report)
+[View HW1 Report](https://github.com/ryanchenggg/DLCV-Fall-2023/blob/master/hw1/hw1_r11521701.pdf)
 
 ## DLCV HW2 Report
 ### Problem 1: Diffusion Models
@@ -45,7 +45,7 @@
 - **t-SNE visualization:** Better domain adaptation performance for USPS compared to SVHN.
 - **Conclusion from DANN:** Effective for domain adaptation, but requires fine-tuning between domain discrimination and classification accuracy.
 
-[View HW2 Report](URL-to-HW2-Report)
+[View HW2 Report](https://github.com/ryanchenggg/DLCV-Fall-2023/blob/master/hw2/hw2_r11521701.pdf)
 
 ## DLCV HW3 Report
 ### Problem 1: Zero-shot Image Classification with CLIP
@@ -70,7 +70,7 @@
   - **Prediction:** "a photo of a vintage car and a computer."
   - **Score:** 0.439453125
 
-[View HW3 Report](URL-to-HW3-Report)
+[View HW3 Report](https://github.com/ryanchenggg/DLCV-Fall-2023/blob/master/hw3/hw3_r11521701.pdf)
 
 ## DLCV HW4 Report
 ### Problem 1: 3D Novel View Synthesis
@@ -81,4 +81,4 @@
   - **LPIPS (VGG):** 0.100895444 (set 1), 0.115679097 (set 2), 0.113964383 (set 3)
 - **Implementation details:** Adjusted positional encoding and MLP layers to optimize image fidelity and detail reproduction.
 
-[View HW4 Report](URL-to-HW4-Report)
+[View HW4 Report]([URL-to-HW4-Report](https://github.com/ryanchenggg/DLCV-Fall-2023/blob/master/hw4/hw4_r11521701.pdf))
