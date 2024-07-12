@@ -81,4 +81,20 @@
   - **LPIPS (VGG):** 0.100895444 (set 1), 0.115679097 (set 2), 0.113964383 (set 3)
 - **Implementation details:** Adjusted positional encoding and MLP layers to optimize image fidelity and detail reproduction.
 
-[View HW4 Report]([URL-to-HW4-Report](https://github.com/ryanchenggg/DLCV-Fall-2023/blob/master/hw4/hw4_r11521701.pdf))
+[View HW4 Report](https://github.com/ryanchenggg/DLCV-Fall-2023/blob/master/hw4/hw4_r11521701.pdf)
+
+## DLCV Final Project: Visual Query Localization
+### Introduction
+Our final project focused on the challenge of visual query localization using advanced machine learning models including Faster R-CNN and DeepSORT for object detection and tracking, and VQLoC for a single-stage transformer-based model approach.
+
+### Methodology
+- **Faster R-CNN + DeepSORT**: Used for initial object detection and subsequent tracking.
+- **VQLoC Model**: Utilized for its advanced capabilities in generalizing long-range query-to-frame correspondences and enhancing frame-to-frame relationships through temporal windows.
+
+### Key Results
+The VQLoC model achieved a space-time average precision (stAP) of 0.2965 (After that we reached to **0.4008**) using normalized frame-to-frame data and a smaller kernel size, showing improved generalization. In contrast, the regular query and frames setup achieved a lower stAP of 0.1938.
+
+### Conclusion
+The exploration of both traditional two-stage and advanced single-stage approaches provided us with deep insights into the practical and theoretical aspects of visual query localization, highlighting the importance of accurate regional proposals and model generalization.
+
+[View Final Project Report](https://github.com/ryanchenggg/DLCV-Fall-2023/blob/master/Final/poster.pdf)
