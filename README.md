@@ -50,10 +50,7 @@
 ## DLCV HW3 Report
 ### Problem 1: Zero-shot Image Classification with CLIP
 - **Methods analysis:** Utilizes a contrastive learning framework.
-- **Prompt-text accuracy:**
-  - **"This is a photo of {object}":** 0.6556
-  - **"This is not a photo of {object}":** 0.7232
-  - **"No {object}, no score":** 0.5344
+- **Prompt-text accuracy:** 0.7232
 
 ### Problem 2: PEFT on Vision and Language Model for Image Captioning
 - **Best setting performance:**
